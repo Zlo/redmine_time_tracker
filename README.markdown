@@ -25,7 +25,9 @@ It is be individual configurable for every user and as a module can be enabled p
 
 ## Getting the plugin
 
-Most current version is available at: [GitHub](https://github.com/fernandokosh/redmine_time_tracker).
+Most current version is available at: [GitHub](https://github.com/Zlo/redmine_time_tracker).
+
+This version contains a small patch to get things to work on the redmine package for Ubuntu 12.04. A dependency to the backports gem is added for flat_map().
 
 ## Requirements
 * Redmine 2.4.0
