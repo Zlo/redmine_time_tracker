@@ -13,7 +13,7 @@
    log_label = content_tag :span, l(:tt_start_dialog_log_option)
    log_opt = log_radio + log_label + tag('br')
    suffix = time_tracker.issue_id.nil? ? l(:tt_start_dialog_no_issue) : "#{l(:field_issue)} ##{time_tracker.issue_id.to_s}"
-   desc = content_tag :p, l(:tt_start_dialog_description, time_tracker: suffix)
+   desc = content_tag :p, l(:tt_start_dialog_description, :time_tracker => suffix)
 %>
 <script type="text/javascript">
     function updateOkButton(key, initial) {
